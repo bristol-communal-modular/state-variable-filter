@@ -1,0 +1,179 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\title{Ouroboros 2164 Gain Cell Filter}
+\author{Guy John \\ \texttt{guy@rumblesan.com}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Analysis of the Ouroboros filter. Heavily based on the Mutable Instruments Blades filter with influences from the Serge VCFQ as well. Much of this analysis is pulled from the SSM2164 SVF Analysis by Emilie Gillet and then just somewhat modified.
+
+\newpage
+
+\subsection{Notations}
+
+\begin{description}
+\item $R_m$ is the value of the resistor at the input of the mixer section.
+\item $R_i$ is the value of the resistors in the input to the 2164 integrator cells.
+\item $R_{hp}$ is the value of the resistor through which the HP output is fed back into the input mixer.
+\item $R_{bp}$ is the value of the resistor through which the BP output is fed back into the input mixer.
+\item $R_{lp}$ is the value of the resistor through which the LP output is fed back into the input mixer.
+\item $R_q$ is the value of the resistor at the input of the gain cell feeding the BP output back to control the Q of the filter.
+\item $C$ is the value of the integrators' capacitors.
+\item $v_{cv}$ is the cutoff frequency control voltage.
+\item $v_q$ is the resonance control voltage.
+\item $v_i$ is the input voltage.
+\item $v_{hp}(s)$, $v_{bp}(s)$ and $v_{lp}(s)$ are the high-pass, band-pass and low-pass output voltages.
+\end{description}
+
+For reference, the standard second-order filter transfer functions are:
+
+\begin{equation*}
+\begin{split}
+  H_{lp}(s) & = \frac{1}{{\tau}^2s^2 + \frac{1}{q}{\tau}s + 1} \\
+  H_{bp}(s) & = \frac{1}{\frac{q}{{\tau}s} + q{\tau}s + 1} \\
+  H_{hp}(s) & = \frac{1}{\frac{1}{{\tau}^2s^2} + \frac{1}{q{\tau}s} + 1} \\
+\end{split}
+\end{equation*}
+
+Where $\tau = \frac{1}{2{\pi}C}$
+
+\subsection{2164 Integrator Cell}
+
+\includegraphics[width=\linewidth]{images/2164-integrator.png}
+
+The current gain of a 2164 gain cell is $i_{out} = i_{in} 10^{-\frac{3}{2}v_{cv}}$.
+The transfer function of the integrator cell $\alpha$ can then be calculated.
+
+\begin{equation*}
+\begin{split}
+  i_{in} & = \frac{v_{in}}{R_i} \\
+  i_{out} & = \frac{v_{in}}{R_i} 10^{-\frac{3}{2}v_{cv}} \\
+  v_{out} & = -\frac{i_{out}}{Cs} \\
+  v_{out} & = -\frac{\frac{v_{in}}{R_i} 10^{-\frac{3}{2}v_{cv}}}{Cs} \\
+          & = -\frac{v_{in} 10^{-\frac{3}{2}v_{cv}}}{{Cs}{R_i}} \\
+  \alpha(s) & = \frac{v_{out}}{v_{in}} = -\frac{1}{{Cs}{R_i}} 10^{-\frac{3}{2}v_{cv}} \\
+\end{split}
+\end{equation*}
+
+\subsection{Resonance VCA}
+
+\includegraphics[width=\linewidth]{images/2164-resonance-vca.png}
+
+The transfer function of the resonance feedback VCA $\beta$ can then be calculated.
+
+\begin{equation*}
+\begin{split}
+  i_{in} & = \frac{v_{in}}{R_q} \\
+  i_{out} & = \frac{v_{in}}{R_q} 10^{-\frac{3}{2}v_q} \\
+  v_{out} & = -i_{out}R_{qfb} \\
+  v_{out} & = -\frac{v_{in}R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q} \\
+  \beta(s) & = \frac{v_{out}}{v_{in}} = -\frac{R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q} \\
+\end{split}
+\end{equation*}
+
+\subsection{Filter}
+
+\includegraphics[width=\linewidth]{images/state-variable-filter-schematic.png}
+
+\begin{equation*}
+\begin{split}
+  \frac{v_i}{R_i} + \frac{v_{hp}}{R_{hp}} + \frac{v_{lp}}{R_{lp}}  + \frac{v_{bp}}{R_{bp}} & = 0 \\
+\end{split}
+\end{equation*}
+
+\subsubsection{High-pass}
+
+\begin{equation*}
+\begin{split}
+  \frac{v_{hp}(s)}{R_{hp}} & = - \frac{v_i(s)}{R_i} - \frac{\beta v_{bp}(s)}{R_{bp}} - \frac{v_{lp}(s)}{R_{lp}} \\
+  \frac{v_{hp}(s)}{R_{hp}} & = - \frac{v_i(s)}{R_i} - \frac{\beta \alpha(s) v_{hp}(s)}{R_{bp}} - \frac{\alpha^2(s) v_{hp}(s)}{R_{lp}} \\
+  \frac{v_i(s)}{R_i} & = - \frac{v_{hp}(s)}{R_{hp}} - \frac{\beta \alpha(s) v_{hp}(s)}{R_{bp}} - \frac{\alpha^2(s) v_{hp}(s)}{R_{lp}} \\
+  \frac{v_i(s)}{R_i} & = -v_{hp}(s)(\frac{1}{R_{hp}} + \frac{\beta \alpha(s)}{R_{bp}} + \frac{\alpha^2(s)}{R_{lp}}) \\
+  \frac{v_i(s)}{v_{hp}(s)} & = -R_i(\frac{1}{R_{hp}} + \frac{\beta \alpha(s)}{R_{bp}} + \frac{\alpha^2(s)}{R_{lp}}) \\
+  H_{hp}(s) & = \frac{v_{hp}(s)}{v_i(s)} = -\frac{1}{R_i}\frac{1}{(\frac{1}{R_{hp}} + \frac{\beta \alpha(s)}{R_{bp}} + \frac{\alpha^2(s)}{R_{lp}})} \\
+  R_{hp} & = R_{bp} = R_{lp} = R \\
+  & = -\frac{1}{R_i}\frac{1}{(\frac{1}{R} + \frac{\beta \alpha(s)}{R} + \frac{\alpha^2(s)}{R})} \\
+  & = -\frac{\frac{R}{R_i}}{1 + \beta \alpha(s) + \alpha^2(s)} \\
+\end{split}
+\end{equation*}
+
+$G = \frac{R}{R_i}$ is the pass-band gain.
+
+\subsubsection{Low-Pass}
+
+\begin{equation*}
+\begin{split}
+  H_{lp}(s) & = \frac{v_{lp}(s)}{v_i(s)} \\
+            & = \frac{v_{hp}(s)}{v_i(s)}\alpha^2(s) \\
+            & = -\frac{\frac{R}{R_i}}{\frac{1}{\alpha^2(s)} + \beta \frac{1}{\alpha(s)} + 1 } \\
+            & = -\frac{\frac{R}{R_i}}{\frac{1}{\alpha^2(s)} + \beta \frac{1}{\alpha(s)} + 1 } \\
+            & = -\frac{\frac{R}{R_i}}{\frac{1}{{(-\frac{1}{{Cs}{R_i}} 10^{-\frac{3}{2}v_{cv}})}^2} + {(-\frac{R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q})}\frac{1}{-\frac{1}{{Cs}{R_i}} 10^{-\frac{3}{2}v_{cv}}} + 1 } \\
+            & = -\frac{\frac{R}{R_i}}{\frac{1}{{(\frac{1}{{Cs}{R_i}} 10^{-\frac{3}{2}v_{cv}})}^2} + {(\frac{R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q})}\frac{1}{\frac{1}{{Cs}{R_i}} 10^{-\frac{3}{2}v_{cv}}} + 1 } \\
+            & = -\frac{\frac{R}{R_i}}{\frac{1}{{(\frac{1}{s}\frac{1}{{C}{R_i}} 10^{-\frac{3}{2}v_{cv}})}^2} + {(\frac{R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q})}\frac{1}{\frac{1}{s}\frac{1}{{C}{R_i}} 10^{-\frac{3}{2}v_{cv}}} + 1 } \\
+            & = -\frac{\frac{R}{R_i}}{\frac{1}{{\frac{1}{s^2}(\frac{1}{{C}{R_i}} 10^{-\frac{3}{2}v_{cv}})}^2} + {(\frac{R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q})}\frac{1}{\frac{1}{s}\frac{1}{{C}{R_i}} 10^{-\frac{3}{2}v_{cv}}} + 1 } \\
+            & = -\frac{\frac{R}{R_i}}{\frac{s^2}{{(\frac{1}{{C}{R_i}} 10^{-\frac{3}{2}v_{cv}})}^2} + {(\frac{R_{qfb}}{R_q} 10^{-\frac{3}{2}v_q})}\frac{s}{\frac{1}{{C}{R_i}} 10^{-\frac{3}{2}v_{cv}}} + 1 } \\
+\end{split}
+\end{equation*}
+
+By comparing with the standard form of a second order filter transfer function we can work out the following.
+
+\begin{description}
+  \item Pass-band gain, $-\frac{R}{R_i}$
+  \item Cutoff frequency, $f = \frac{1}{2 \pi R_i C} 10^{-\frac{3}{2}v_{cv}}$
+  \item Quality factor, $\frac{R_q}{R_{qfb}} 10^{\frac{3}{2}v_{q}}$
+\end{description}
+
+\subsection{Calculating cutoff frequencies}
+
+Given the calculation for frequency, and picking some standard values we can calculate cutoff for different $i_{cv}$ values.
+
+\begin{description}
+  \item $R_i$ is 33k
+  \item $C$ is 220pF
+\end{description}
+
+\begin{equation}
+  f = \frac{1}{2\pi * 33000 * 220 * 10^{-12}} 10^{-\frac{3}{2}v_{cv}}
+\end{equation}
+
+\begin{description}
+  \item for $v_{cv}$ of 0V    $f = 21922Hz$
+  \item for $v_{cv}$ of 0.25V $f = 9244Hz$
+  \item for $v_{cv}$ of 0.5V  $f = 3898Hz$
+  \item for $v_{cv}$ of 1V    $f = 693Hz$
+  \item for $v_{cv}$ of 2V    $f = 21Hz$
+  \item for $v_{cv}$ of 3V    $f = 0.69Hz$
+\end{description}
+
+\subsection{Calculating resonance}
+
+A quality factor of $1/2$ gives no resonance, whilst the resonance (and likelihood of self oscillating) increases as Q goes to infinity.
+
+Assuming that $\frac{R_q}{R_{qfb}} = 1/2$
+
+\begin{description}
+  \item $R_q$ is 15k
+  \item $R_{qfb}$ is 30k
+\end{description}
+
+\begin{equation}
+  q = \frac{15000}{30000} 10^{\frac{3}{2}v_{q}}
+\end{equation}
+
+\begin{description}
+  \item for $v_{q}$ of 0.0V  $q = 0.5$
+  \item for $v_{q}$ of 0.25V $q = 1.18$
+  \item for $v_{q}$ of 0.5V  $q = 2.811$
+  \item for $v_{q}$ of 1V    $q = 15.8$
+  \item for $v_{q}$ of 2V    $q = 500$
+\end{description}
+
+
+\end{document}
