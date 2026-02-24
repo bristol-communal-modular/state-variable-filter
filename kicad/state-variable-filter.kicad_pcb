@@ -20981,6 +20981,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c4d50964-b0ad-4fef-84c4-3aaa4400f3b0")
 		(at 94.5 74)
