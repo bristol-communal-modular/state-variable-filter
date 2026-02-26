@@ -9264,7 +9264,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/dd1082d9-d298-4528-a771-605598a24632")
+		(path "/ddef171b-17c5-4dc5-8218-c6c19c0ef750")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
 		(attr through_hole)
@@ -10779,7 +10779,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kB"
 			(at 0 10.795 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19511,7 +19511,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kB"
 			(at 0 10.795 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21857,7 +21857,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kB"
 			(at 0 10.795 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -26474,7 +26474,7 @@
 				)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "22pF"
 			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "cf5e057c-978c-43a1-89ea-0c7140226c00")

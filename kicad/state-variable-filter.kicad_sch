@@ -10297,7 +10297,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kB"
 			(at 312.42 180.3401 0)
 			(effects
 				(font
@@ -13574,7 +13574,7 @@
 				)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "22pF"
 			(at 375.92 127 90)
 			(effects
 				(font
@@ -18318,7 +18318,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kB"
 			(at 300.99 77.4701 0)
 			(effects
 				(font
@@ -21541,7 +21541,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kB"
 			(at 290.83 144.7799 0)
 			(effects
 				(font
