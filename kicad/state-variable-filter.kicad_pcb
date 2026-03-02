@@ -1909,7 +1909,7 @@
 				)
 			)
 		)
-		(property "Value" "1M5"
+		(property "Value" "1m5"
 			(at 8.128 0.6 0)
 			(layer "F.Fab")
 			(uuid "f08e2b0e-d5e5-4bd8-a6a4-611d30ffa1ac")
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "1343e277-4066-47ff-8295-651b04f05798")
@@ -3422,7 +3422,7 @@
 		(path "/a4ab9b06-f340-44df-a5b7-518a5d3cd515")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 6.58 0)
 			(end 5.93 0)
@@ -4334,7 +4334,7 @@
 		(path "/f1c7eba2-e643-46c9-9207-ed021e27b212")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -4557,7 +4557,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 3.81 0.032 0)
 			(layer "F.Fab")
 			(uuid "88e4d172-2f62-4aa9-8814-785db9fdbf57")
@@ -9005,7 +9005,7 @@
 		(path "/f15b8679-d55c-4567-bf55-e23cb54b844c")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -14695,7 +14695,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "9ed0f217-a720-4e0d-a112-f32d706e28fa")
@@ -15722,7 +15722,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "270k"
 			(at 8.128 0.6 0)
 			(layer "F.Fab")
 			(uuid "37b87bc4-70a1-469e-ab24-538cb1efcd53")
@@ -18255,7 +18255,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "150k"
 			(at 8.128 0.6 90)
 			(layer "F.Fab")
 			(uuid "28e1c9d0-5029-4c10-9f57-8d96dd2c07d7")
@@ -18636,7 +18636,7 @@
 		(path "/131d3747-b2d6-45fe-9d81-44f7f47527e8")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -25658,7 +25658,7 @@
 				)
 			)
 		)
-		(property "Spec" "ceramic C0G"
+		(property "Spec" "ceramic X7R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28050,7 +28050,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "100k"
 			(at 8.128 0.6 90)
 			(layer "F.Fab")
 			(uuid "0da174de-9927-41f1-a780-6f555c5f5dcb")
@@ -30466,7 +30466,7 @@
 		(path "/3d0e3876-833f-44a4-96b1-41777995aee0")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.5 0)
@@ -30626,7 +30626,7 @@
 		(path "/16b2d59b-954f-4c5c-b5ea-4e4db73ab467")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.5 0)
@@ -30786,7 +30786,7 @@
 		(path "/fd946a7b-b604-498e-848e-103ff2f737dc")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.5 0)
@@ -30936,6 +30936,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Spec" "aluminium electrolytic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "507fda24-e5bb-4475-9428-55b1c4161bfa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -33431,7 +33445,7 @@
 		(path "/91cfee1d-78a9-4f6e-85b2-98d9e650ae68")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.38 -1.27)
 			(end 1.38 -3.92)
@@ -33690,7 +33704,7 @@
 		(path "/a9a21f46-8c2c-40a3-8913-7c03a8b8b261")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.5 0)
@@ -33948,7 +33962,7 @@
 		(path "/b77eea38-eb30-4d41-8ea9-0b8258ccaef0")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -3.92)
 			(end 1.38 -3.92)
@@ -34197,6 +34211,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Spec" "aluminium electrolytic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c6b27f2-b6d5-481c-9218-2ae9ad49bc1b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -35883,7 +35911,7 @@
 		(path "/c566b1fe-4f54-4af7-9a11-533c89c136d1")
 		(sheetname "/")
 		(sheetfile "state-variable-filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 1.38)
 			(end 0 1.38)

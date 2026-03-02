@@ -4858,6 +4858,12 @@
 		(uuid "0e203c2c-31bd-429d-91ac-081d90ed0729")
 	)
 	(junction
+		(at 107.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b0db22-c495-4e91-8c94-ad6f074e9444")
+	)
+	(junction
 		(at 346.71 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5122,10 +5128,10 @@
 		(uuid "98d48c33-b4e8-436c-860b-1b12e4f82734")
 	)
 	(junction
-		(at 87.63 44.45)
+		(at 87.63 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c8ade11-57d4-4407-bf7c-dd3f81a06e13")
+		(uuid "99133158-6faf-4c0f-966b-bba1e0370020")
 	)
 	(junction
 		(at 129.54 63.5)
@@ -5230,12 +5236,6 @@
 		(uuid "c348b7e4-e7c1-436b-81d4-9d8c2cc41ff1")
 	)
 	(junction
-		(at 87.63 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4f26996-95a6-4cca-867b-f10612d2023a")
-	)
-	(junction
 		(at 99.06 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5252,6 +5252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cae622d0-6693-4601-aca4-fb4b934a0f5d")
+	)
+	(junction
+		(at 87.63 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d276d573-7af1-4049-bb25-4f075d4803cf")
 	)
 	(junction
 		(at 308.61 39.37)
@@ -5318,12 +5324,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5b56c28-b397-413f-a829-9605fb87d696")
-	)
-	(junction
-		(at 107.95 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f808c305-39c1-4040-b74a-ed7a0004d9fc")
 	)
 	(junction
 		(at 119.38 88.9)
@@ -5649,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 107.95 44.45)
+			(xy 107.95 30.48) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5689,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 107.95 33.02)
+			(xy 101.6 30.48) (xy 107.95 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5859,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 87.63 33.02)
+			(xy 93.98 30.48) (xy 87.63 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7009,16 +7009,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 44.45) (xy 87.63 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3e0240-c136-4009-b989-8cce4ab4bc94")
-	)
-	(wire
-		(pts
 			(xy 72.39 271.78) (xy 72.39 274.32)
 		)
 		(stroke
@@ -7386,6 +7376,16 @@
 			(type default)
 		)
 		(uuid "858379df-7a3f-4272-a391-4ce953a7e259")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859c97ae-f96b-427b-9615-aaea3090b991")
 	)
 	(wire
 		(pts
@@ -8139,7 +8139,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 20.32) (xy 87.63 33.02)
+			(xy 87.63 20.32) (xy 87.63 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8226,16 +8226,6 @@
 			(type default)
 		)
 		(uuid "b7cdf03c-d09e-4270-b3b6-48e44355dc85")
-	)
-	(wire
-		(pts
-			(xy 107.95 55.88) (xy 107.95 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f58a01-8330-4b11-9709-1cab7673864b")
 	)
 	(wire
 		(pts
@@ -8399,7 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 101.6 44.45)
+			(xy 107.95 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8419,7 +8409,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 33.02) (xy 87.63 44.45)
+			(xy 87.63 30.48) (xy 87.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8489,7 +8479,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 44.45) (xy 87.63 44.45)
+			(xy 93.98 41.91) (xy 87.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8976,6 +8966,16 @@
 			(type default)
 		)
 		(uuid "f1574b9b-4d90-4867-b020-32975b7be4ea")
+	)
+	(wire
+		(pts
+			(xy 87.63 41.91) (xy 87.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a2cfd4-1cc9-47fe-a418-54f61e17c988")
 	)
 	(wire
 		(pts
@@ -9759,7 +9759,7 @@
 		)
 		(uuid "200b6f54-61a0-4bd0-8141-c2376e865ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.1558 228.6 0)
+			(at 369.1796 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9847,7 @@
 		)
 		(uuid "57d7fe82-11e8-4f7a-888d-3acdbd98a6fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.1796 231.14 0)
+			(at 366.1558 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,9 +10086,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "008f87c0-4cc5-460c-908b-af42668be1bf")
 		(property "Reference" "U4"
-			(at 317.5 50.8 0)
+			(at 317.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10097,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 317.5 48.26 0)
+			(at 317.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,6 +10191,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0380e854-2a38-4aa8-ba8d-61b1dc3d5692")
 		(property "Reference" "R26"
 			(at 139.7 118.1099 0)
@@ -10287,9 +10289,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "038bc785-badb-45fd-8d3f-078a2374c726")
 		(property "Reference" "RV3"
-			(at 312.42 182.8801 0)
+			(at 312.42 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +10301,7 @@
 			)
 		)
 		(property "Value" "10kB"
-			(at 312.42 180.3401 0)
+			(at 312.42 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10374,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 157.48 272.4134 0)
+			(at 157.48 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10528,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 49.53 236.8534 0)
+			(at 49.53 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10594,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 22.86 245.3442 0)
+			(at 22.86 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 76.8334 0)
+			(at 30.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 230.5034 0)
+			(at 63.5 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +10851,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dd0302a-f3c1-4a0f-b766-57bb56344a93")
 		(property "Reference" "D10"
-			(at 353.06 43.18 0)
+			(at 353.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10856,7 +10859,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 353.06 45.72 0)
+			(at 353.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,9 +10934,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "101ee4f3-989c-4006-8034-b0e729206054")
 		(property "Reference" "R10"
-			(at 113.03 25.0358 90)
+			(at 113.03 13.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10945,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 113.03 22.4989 90)
+			(at 113.03 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,7 +11100,7 @@
 		(fields_autoplaced yes)
 		(uuid "12c26c5c-4f0a-4a5a-926b-dcbacdd7b9e6")
 		(property "Reference" "J10"
-			(at 252.095 22.86 0)
+			(at 252.095 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11168,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "131d3747-b2d6-45fe-9d81-44f7f47527e8")
 		(property "Reference" "R36"
@@ -11265,7 +11269,7 @@
 		(fields_autoplaced yes)
 		(uuid "1392c87d-5206-47c9-8d4d-4059da80b84a")
 		(property "Reference" "R31"
-			(at 330.2 55.88 90)
+			(at 330.2 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11277,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 330.2 58.42 90)
+			(at 330.2 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +11442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 121.2834 0)
+			(at 100.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +11493,7 @@
 		(at 375.92 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11560,6 +11564,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "19dcb4bf-e8df-4953-9033-d62ba31f94a3")
 		(property "Reference" "D3"
 			(at 384.81 175.26 0)
@@ -11569,7 +11574,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 384.81 177.8 0)
 			(effects
 				(font
@@ -11657,7 +11662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.81 213.9934 0)
+			(at 384.81 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,9 +11717,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1d28f788-8ce6-42c9-9424-389fdcfef6d4")
 		(property "Reference" "RV1"
-			(at 41.91 102.8701 0)
+			(at 41.91 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11729,7 @@
 			)
 		)
 		(property "Value" "10kA"
-			(at 41.91 100.3301 0)
+			(at 41.91 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11784,6 +11790,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1dd3c697-2555-4364-b074-b5c9179d799f")
 		(property "Reference" "U3"
 			(at 219.71 102.87 0)
@@ -12083,9 +12090,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "217e08ac-9946-400e-8ad2-627eac18de79")
 		(property "Reference" "J13"
-			(at 316.484 243.332 0)
+			(at 318.77 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12182,7 @@
 		(fields_autoplaced yes)
 		(uuid "2430ca54-088f-4f22-bf9a-0440c387953a")
 		(property "Reference" "U4"
-			(at 123.19 260.3499 0)
+			(at 121.92 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12191,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 123.19 262.8899 0)
+			(at 121.92 262.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +12298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 179.7034 0)
+			(at 100.33 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +12364,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 106.68 276.2234 0)
+			(at 106.68 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 304.8 66.6734 0)
+			(at 304.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,7 +12496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 191.1334 0)
+			(at 314.96 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12543,6 +12551,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "27a8b528-587d-4929-9d0d-8d7d851d636f")
 		(property "Reference" "R27"
 			(at 204.47 118.1099 0)
@@ -12652,7 +12661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 230.5034 0)
+			(at 245.11 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12719,7 +12728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 208.9134 0)
+			(at 199.39 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12784,7 +12793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "100k"
 			(at 77.47 60.9599 0)
 			(effects
 				(font
@@ -12882,7 +12891,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 120.65 247.8842 0)
+			(at 120.65 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,7 +13026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 38.7334 0)
+			(at 259.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13074,7 +13083,7 @@
 		(fields_autoplaced yes)
 		(uuid "3166da28-79c7-476f-a832-9c9f48a06c58")
 		(property "Reference" "D1"
-			(at 114.3 50.8 0)
+			(at 114.3 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +13091,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 114.3 53.34 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13158,9 +13167,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "31c9490d-7dd1-4423-9c46-2eebd3ccd6a3")
 		(property "Reference" "RV4"
-			(at 39.37 76.2001 0)
+			(at 39.37 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13169,7 +13179,7 @@
 			)
 		)
 		(property "Value" "10kA"
-			(at 39.37 73.6601 0)
+			(at 39.37 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,6 +13329,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "352de193-0f94-4969-87b2-d0bd4dc18ddb")
 		(property "Reference" "R3"
 			(at 191.77 194.31 90)
@@ -13425,7 +13436,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 92.71 247.8842 0)
+			(at 92.71 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,17 +13490,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "359dd931-f32e-4999-8787-d76d29283449")
 		(property "Reference" "D4"
-			(at 355.6 171.45 0)
+			(at 355.6 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1n4148"
-			(at 355.6 168.91 0)
+		(property "Value" "1N4148"
+			(at 355.6 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,6 +13662,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3a0fab2f-cfdd-4003-9796-4cf793a86775")
 		(property "Reference" "C5"
 			(at 154.94 177.7999 0)
@@ -13749,7 +13762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 111.1234 0)
+			(at 44.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,15 +13819,15 @@
 		(fields_autoplaced yes)
 		(uuid "3a979007-8f78-4c87-9601-3f6cb9017b00")
 		(property "Reference" "R33"
-			(at 330.2 71.12 90)
+			(at 330.2 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 330.2 73.66 90)
+		(property "Value" "150k"
+			(at 330.2 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +13923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 64.1334 0)
+			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,7 +13974,7 @@
 		(at 72.39 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14192,11 +14205,12 @@
 		(fields_autoplaced yes)
 		(uuid "3fec2d39-7463-4104-b625-9d7126282522")
 		(property "Reference" "J6"
-			(at 206.375 193.04 0)
+			(at 210.82 201.2949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "AudioJack2_SwitchT"
@@ -14361,7 +14375,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 27.94 183.1142 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +14439,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "270k"
 			(at 340.36 175.26 90)
 			(effects
 				(font
@@ -14510,9 +14524,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "42f1d1ba-e86a-4916-8d8f-544359dfbd61")
 		(property "Reference" "RV5"
-			(at 280.67 31.7501 0)
+			(at 280.67 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14521,7 +14536,7 @@
 			)
 		)
 		(property "Value" "10kB"
-			(at 280.67 29.2101 0)
+			(at 280.67 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,9 +14598,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "435a44e3-8250-4fe2-921a-5748e5c45e32")
 		(property "Reference" "U2"
-			(at 109.22 123.19 0)
+			(at 109.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,7 +14609,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 109.22 120.65 0)
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,9 +14702,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "45b2bae5-6750-4194-8af6-22123bcb25a8")
 		(property "Reference" "J2"
-			(at 204.724 268.732 0)
+			(at 207.01 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +14804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 227.9634 0)
+			(at 199.39 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14842,6 +14859,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4634776b-c4b9-4611-b11a-f6db6d2e3d3d")
 		(property "Reference" "C15"
 			(at 203.2 129.5399 0)
@@ -15053,7 +15071,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 49.53 212.3242 0)
+			(at 49.53 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15108,6 +15126,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4dac2880-8f0f-4d29-926a-e5163d741781")
 		(property "Reference" "R2"
 			(at 237.49 215.9 90)
@@ -15202,9 +15221,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4e5bbf9a-4bf6-4216-86ae-e2a6cd15e8e1")
 		(property "Reference" "R9"
-			(at 91.44 163.83 90)
+			(at 91.44 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15232,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 91.44 161.29 90)
+			(at 91.44 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,7 +15319,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f63ec43-fe67-4dba-b598-3074781f3e37")
 		(property "Reference" "R32"
-			(at 334.01 36.83 90)
+			(at 334.01 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15307,7 +15327,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 334.01 39.37 90)
+			(at 334.01 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15394,7 +15414,7 @@
 		(fields_autoplaced yes)
 		(uuid "57b2591c-401a-4759-b0b7-c4dfaa1027e4")
 		(property "Reference" "D9"
-			(at 369.57 57.15 0)
+			(at 369.57 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +15422,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 369.57 59.69 0)
+			(at 369.57 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15489,7 +15509,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 27.94 203.8334 0)
+			(at 27.94 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15555,7 +15575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 123.8234 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15609,9 +15629,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5934ec7e-b321-418f-b845-5d8c34ae1857")
 		(property "Reference" "U1"
-			(at 101.092 58.928 0)
+			(at 97.79 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,7 +15640,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 101.092 61.468 0)
+			(at 97.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +15718,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aa4c585-c19d-4cb9-a5bb-838bbcdf1543")
 		(property "Reference" "J4"
-			(at 264.795 135.89 0)
+			(at 264.795 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,7 +15799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 59.0534 0)
+			(at 48.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15833,9 +15854,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5d9ffa75-89c5-421b-8f21-3c3308297313")
 		(property "Reference" "U1"
-			(at 140.97 229.7598 0)
+			(at 140.97 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +15865,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 140.97 227.2229 0)
+			(at 140.97 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,6 +16101,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "616da64a-96b5-48ce-9133-8c10f9c3a6e7")
 		(property "Reference" "U3"
 			(at 156.21 102.87 0)
@@ -16284,9 +16307,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6214482f-fed6-43dc-a02a-0bb36359c87c")
 		(property "Reference" "U2"
-			(at 179.07 125.73 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16294,7 +16318,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 179.07 123.19 0)
+			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16494,7 +16518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 50.1634 0)
+			(at 308.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16551,7 +16575,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c8210f4-b222-450a-b271-5dd11506a49c")
 		(property "Reference" "U1"
-			(at 95.25 260.3499 0)
+			(at 93.98 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16560,7 +16584,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 95.25 262.8899 0)
+			(at 93.98 262.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16649,7 +16673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 262.2534 0)
+			(at 179.07 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16802,7 +16826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 210.1834 0)
+			(at 245.11 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16859,7 +16883,7 @@
 		(fields_autoplaced yes)
 		(uuid "70c84abe-b371-47da-a725-80dd73a0986d")
 		(property "Reference" "C20"
-			(at 77.47 265.8109 0)
+			(at 76.2 265.8109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,7 +16892,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 77.47 268.3509 0)
+			(at 76.2 268.3509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16895,6 +16919,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 72.39 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spec" "aluminium electrolytic"
 			(at 72.39 267.97 0)
 			(effects
 				(font
@@ -16938,7 +16971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 70.4834 0)
+			(at 344.17 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17004,7 +17037,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 57.15 220.9799 90)
+			(at 55.88 220.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17159,11 +17192,12 @@
 		(fields_autoplaced yes)
 		(uuid "790920bb-2fae-4642-a431-6bce26948a68")
 		(property "Reference" "J1"
-			(at 252.095 194.31 0)
+			(at 256.54 202.5649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "AudioJack2_SwitchT"
@@ -17240,7 +17274,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 374.65 213.9934 0)
+			(at 374.65 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17294,6 +17328,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7d132e3b-7771-4d13-8338-2bf5b063f9ce")
 		(property "Reference" "#FLG02"
 			(at 53.975 228.6 0)
@@ -17305,12 +17340,11 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 57.15 228.5999 0)
+			(at 53.34 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17372,7 +17406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 229.2334 0)
+			(at 132.08 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17426,9 +17460,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "836eb315-4d9e-4af8-a25d-eb521bd0e82a")
 		(property "Reference" "J9"
-			(at 24.13 75.184 0)
+			(at 23.495 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17497,6 +17532,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "84d2cc7f-c60a-4b7b-897a-25d6f870faa3")
 		(property "Reference" "R15"
 			(at 153.67 168.9099 0)
@@ -17605,7 +17641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 369.57 213.9934 0)
+			(at 369.57 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17659,9 +17695,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "87a833e9-1889-4908-8e67-eea1a9b42a01")
 		(property "Reference" "D7"
-			(at 146.05 87.7402 0)
+			(at 146.05 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17669,7 +17706,7 @@
 			)
 		)
 		(property "Value" "6v8"
-			(at 146.05 90.2771 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,6 +17782,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "89e999cd-0308-4b95-b2c7-3b90977a6c14")
 		(property "Reference" "U3"
 			(at 133.35 153.67 0)
@@ -18136,7 +18174,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dbdd200-63d0-4ebf-a42f-b0e23f5eddd4")
 		(property "Reference" "D6"
-			(at 81.28 48.26 0)
+			(at 81.28 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18144,7 +18182,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 81.28 50.8 0)
+			(at 81.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,9 +18346,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "90c83c4b-6bd2-468f-81e5-3e4b9252bef7")
 		(property "Reference" "RV6"
-			(at 300.99 80.0101 0)
+			(at 300.99 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18319,7 +18358,7 @@
 			)
 		)
 		(property "Value" "10kB"
-			(at 300.99 77.4701 0)
+			(at 300.99 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18379,7 +18418,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "91cfee1d-78a9-4f6e-85b2-98d9e650ae68")
 		(property "Reference" "JP1"
@@ -18451,7 +18490,7 @@
 		(fields_autoplaced yes)
 		(uuid "9219731a-2345-4343-9074-29fa999e833a")
 		(property "Reference" "C18"
-			(at 351.79 17.78 90)
+			(at 351.79 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18459,7 +18498,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 351.79 20.32 90)
+			(at 351.79 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,9 +18574,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "93659841-93c1-47b4-bd95-77fed6437de3")
 		(property "Reference" "RV7"
-			(at 383.54 67.31 90)
+			(at 383.54 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18545,7 +18585,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 383.54 69.85 90)
+			(at 383.54 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18588,7 +18628,7 @@
 			)
 		)
 		(property "Spec" "multi-turn"
-			(at 383.54 72.39 90)
+			(at 383.54 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18728,7 +18768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 79.3734 0)
+			(at 293.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18782,9 +18822,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "975e9719-3eb4-4dc0-830a-a0ac71c6b1a6")
 		(property "Reference" "J3"
-			(at 26.67 101.854 0)
+			(at 26.035 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18898,7 +18939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" "ceramic C0G"
+		(property "Spec" "ceramic X7R"
 			(at 68.58 49.53 90)
 			(effects
 				(font
@@ -18942,7 +18983,7 @@
 		(fields_autoplaced yes)
 		(uuid "99b16d61-e936-4ee0-942c-4b95893dc7e6")
 		(property "Reference" "J8"
-			(at 41.275 43.18 0)
+			(at 41.275 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19012,9 +19053,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "99b81abc-f7e4-4973-9727-95430367c708")
 		(property "Reference" "R6"
-			(at 266.7 25.7642 90)
+			(at 266.7 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19022,7 +19064,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 266.7 28.3011 90)
+			(at 266.7 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19107,9 +19149,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9a453898-9348-46e2-aae4-8cd6ec7b9ebf")
 		(property "Reference" "D5"
-			(at 40.3225 234.95 0)
+			(at 40.3225 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19117,7 +19160,7 @@
 			)
 		)
 		(property "Value" "1N5818"
-			(at 40.3225 232.41 0)
+			(at 40.3225 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19187,7 +19230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 203.8334 0)
+			(at 22.86 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19253,7 +19296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 151.7634 0)
+			(at 271.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19308,9 +19351,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a0e28ba9-d1b9-4375-b21c-7c94a586e22c")
 		(property "Reference" "U4"
-			(at 353.06 71.12 0)
+			(at 353.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19318,7 +19362,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 353.06 68.58 0)
+			(at 353.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,9 +19456,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a38e8d38-c200-4e84-817a-2264a02a3bd3")
 		(property "Reference" "U2"
-			(at 246.38 123.952 0)
+			(at 246.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19422,7 +19467,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 246.38 121.666 0)
+			(at 246.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19514,7 +19559,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "a4ab9b06-f340-44df-a5b7-518a5d3cd515")
 		(property "Reference" "D12"
 			(at 383.54 151.13 0)
@@ -19524,7 +19570,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 383.54 153.67 0)
 			(effects
 				(font
@@ -19597,7 +19643,7 @@
 		(at 119.38 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19661,14 +19707,23 @@
 	)
 	(symbol
 		(lib_id "Rumblesan_Standard_Parts:R")
-		(at 97.79 44.45 270)
+		(at 97.79 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a9b968a9-f724-40b2-bc10-9dc370e42061")
 		(property "Reference" "R8"
+			(at 97.79 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m5"
 			(at 97.79 38.1 90)
 			(effects
 				(font
@@ -19676,16 +19731,8 @@
 				)
 			)
 		)
-		(property "Value" "1M5"
-			(at 97.79 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 95.25 46.99 90)
+			(at 95.25 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19694,7 +19741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 50.8 90)
+			(at 97.79 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19703,7 +19750,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 44.45 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19712,7 +19759,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 91.44 49.53 90)
+			(at 91.44 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19721,7 +19768,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 105.41 49.53 90)
+			(at 105.41 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19730,7 +19777,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 97.79 49.53 90)
+			(at 97.79 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19762,6 +19809,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "aa6e8843-0e2d-49b4-8730-6b30b739dd11")
 		(property "Reference" "R1"
 			(at 238.76 195.58 90)
@@ -20020,9 +20068,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b3a78aab-961c-4b00-99f6-9cf9ca9353cd")
 		(property "Reference" "J12"
-			(at 222.25 268.732 0)
+			(at 222.885 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20187,7 +20236,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 106.68 247.8842 0)
+			(at 106.68 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20253,7 +20302,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 92.71 276.2234 0)
+			(at 92.71 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20311,11 +20360,12 @@
 		(fields_autoplaced yes)
 		(uuid "b54f3360-00b0-43b8-96e5-aa7497cda05e")
 		(property "Reference" "J5"
-			(at 206.375 212.09 0)
+			(at 210.82 220.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "AudioJack2_SwitchT"
@@ -20383,7 +20433,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63d8751-6c9d-47e2-af7e-3c6e9955c911")
 		(property "Reference" "D2"
-			(at 125.73 15.24 0)
+			(at 125.73 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20391,7 +20441,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 125.73 17.78 0)
+			(at 125.73 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20551,7 +20601,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b77eea38-eb30-4d41-8ea9-0b8258ccaef0")
 		(property "Reference" "JP3"
@@ -20811,6 +20861,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b9f7090f-7a54-42c4-aa28-ed8a328caa42")
 		(property "Reference" "C17"
 			(at 138.43 128.2699 0)
@@ -20980,7 +21031,7 @@
 	)
 	(symbol
 		(lib_id "Rumblesan_Standard_Parts:C")
-		(at 97.79 33.02 90)
+		(at 97.79 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20989,7 +21040,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1e95fdf-e3bc-4a59-913e-659df7e855c5")
 		(property "Reference" "C11"
-			(at 97.79 25.4 90)
+			(at 97.79 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20997,7 +21048,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 97.79 27.94 90)
+			(at 97.79 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21005,7 +21056,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 96.52 27.305 0)
+			(at 96.52 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21014,7 +21065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 25.4 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21023,7 +21074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 33.02 0)
+			(at 97.79 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21032,7 +21083,7 @@
 			)
 		)
 		(property "Spec" "ceramic C0G"
-			(at 97.79 29.21 90)
+			(at 97.79 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21041,7 +21092,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 89.535 29.21 90)
+			(at 89.535 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21071,7 +21122,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c566b1fe-4f54-4af7-9a11-533c89c136d1")
 		(property "Reference" "JP2"
@@ -21145,7 +21196,7 @@
 		(fields_autoplaced yes)
 		(uuid "c70e4474-2aa7-474d-9a02-a9087e84be3b")
 		(property "Reference" "R30"
-			(at 353.06 31.75 90)
+			(at 353.06 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21153,7 +21204,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 353.06 34.29 90)
+			(at 353.06 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21249,7 +21300,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 22.86 281.3034 0)
+			(at 22.86 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21315,7 +21366,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 347.98 189.8634 0)
+			(at 347.98 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21476,7 +21527,7 @@
 			)
 		)
 		(property "Value" "VEE"
-			(at 120.65 276.2234 0)
+			(at 120.65 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21531,6 +21582,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d0489b87-296b-43c0-9b97-d198a5456c12")
 		(property "Reference" "RV2"
 			(at 290.83 142.2399 0)
@@ -21703,7 +21755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 123.8234 0)
+			(at 237.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21864,7 +21916,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 103.5034 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21919,6 +21971,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d9728d0e-4b97-4931-8f1e-ab69b491e2e6")
 		(property "Reference" "U3"
 			(at 30.48 158.75 0)
@@ -22117,9 +22170,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dd1082d9-d298-4528-a771-605598a24632")
 		(property "Reference" "U4"
-			(at 356.87 191.77 0)
+			(at 356.87 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22127,7 +22181,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 356.87 189.23 0)
+			(at 356.87 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22232,7 +22286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.73 213.9934 0)
+			(at 379.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22287,9 +22341,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ddef171b-17c5-4dc5-8218-c6c19c0ef750")
 		(property "Reference" "U4"
-			(at 323.85 168.91 0)
+			(at 323.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22297,7 +22352,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 323.85 166.37 0)
+			(at 323.85 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22485,9 +22540,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "df78f98c-ac72-4d38-81fe-3b59d0ad5ff3")
 		(property "Reference" "J14"
-			(at 325.12 243.332 0)
+			(at 325.755 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22572,6 +22628,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e1d492cd-b687-4b90-879a-87fb469c2713")
 		(property "Reference" "R4"
 			(at 193.04 213.36 90)
@@ -22678,7 +22735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 167.0034 0)
+			(at 314.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22822,11 +22879,12 @@
 		(fields_autoplaced yes)
 		(uuid "e954ef3d-7a2f-4177-b0c1-ad0a25d487d3")
 		(property "Reference" "J7"
-			(at 252.095 214.63 0)
+			(at 256.54 222.8849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "AudioJack2_SwitchT"
@@ -22903,7 +22961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 70.4834 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22970,7 +23028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 262.2534 0)
+			(at 250.19 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23037,7 +23095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 16.51 269.8734 0)
+			(at 16.51 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23094,7 +23152,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef7e7108-541a-477c-8814-1847d45418b8")
 		(property "Reference" "U2"
-			(at 109.22 260.3499 0)
+			(at 107.95 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23103,7 +23161,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 109.22 262.8899 0)
+			(at 107.95 262.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23196,7 +23254,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f15b8679-d55c-4567-bf55-e23cb54b844c")
 		(property "Reference" "R37"
@@ -23292,7 +23350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f1c7eba2-e643-46c9-9207-ed021e27b212")
 		(property "Reference" "R23"
@@ -23391,7 +23449,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2fc57dd-48ac-4efc-bc55-533135e73e65")
 		(property "Reference" "J11"
-			(at 297.815 50.8 0)
+			(at 297.815 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23461,9 +23519,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f364b261-6c63-4e75-99d5-0308a2bd76e1")
 		(property "Reference" "R34"
-			(at 317.5 24.4942 90)
+			(at 317.5 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23471,7 +23530,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 317.5 27.0311 90)
+			(at 317.5 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23635,7 +23694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 84.4534 0)
+			(at 41.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23784,9 +23843,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f895a5c1-dedb-41a5-aa5d-6f71e23d6da7")
 		(property "Reference" "U2"
-			(at 91.44 181.61 0)
+			(at 91.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23794,7 +23854,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 91.44 179.07 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23887,9 +23947,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fad45ddc-019f-4254-9ba7-e9b5a3425d35")
 		(property "Reference" "D8"
-			(at 157.48 87.7402 0)
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23897,7 +23958,7 @@
 			)
 		)
 		(property "Value" "6v8"
-			(at 157.48 90.2771 0)
+			(at 157.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23969,7 +24030,7 @@
 		(at 391.16 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -24042,7 +24103,7 @@
 		(fields_autoplaced yes)
 		(uuid "fff42849-c553-4c43-98e6-2665a6fd266b")
 		(property "Reference" "C19"
-			(at 77.47 254.3809 0)
+			(at 76.2 254.3809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24051,7 +24112,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 77.47 256.9209 0)
+			(at 76.2 256.9209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24078,6 +24139,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 72.39 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spec" "aluminium electrolytic"
 			(at 72.39 256.54 0)
 			(effects
 				(font
