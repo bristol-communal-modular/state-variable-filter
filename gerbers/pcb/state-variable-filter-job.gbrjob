@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.3"
+      "Version": "9.0.7"
     },
-    "CreationDate": "2026-01-03T16:36:44+00:00"
+    "CreationDate": "2026-03-02T22:50:48+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "state-variable-filter",
       "GUID": "73746174-652d-4766-9172-6961626c652d",
-      "Revision": "rev?"
+      "Revision": "rev02"
     },
     "Size": {
       "X": 99.05,
